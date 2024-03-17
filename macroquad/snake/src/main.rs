@@ -61,7 +61,7 @@ async fn main() {
                         dir: (1, 0),
                         body: Vec::new()
                     };
-                    speed = 0.5;
+                    speed = 0.25;
                     fruit = (rand::gen_range(0, SQUARES), rand::gen_range(0, SQUARES));
                     break;
                 }
@@ -82,7 +82,7 @@ async fn main() {
                 dir: (1, 0),
                 body: Vec::new()
             };
-            speed = 0.5;
+            speed = 0.25;
             fruit = (rand::gen_range(0, SQUARES), rand::gen_range(0, SQUARES));
         }
 
